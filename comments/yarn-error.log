@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js init
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\footb\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\xampp\php;C:\Program Files\ImageMagick-7.0.10-Q16-HDRI;C:\Python38\Scripts;C:\Python38;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Microsoft\Web Platform Installer;C:\Users\footb\AppData\Local\Microsoft\WindowsApps;C:\Users\footb\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\footb\AppData\Roaming\npm;C:\Users\footb\AppData\Local\Yarn\bin;C:\ProgramData\ComposerSetup\bin;C:\Program Files\PuTTY;C:\GNAT\2020\bin;C:\Go\bin;C:\Program Files (x86)\Calibre2;C:\Program Files\Calibre2;C:\Cmder;C:\Program Files\Amazon\AWSSAMCLI\bin;C:\Program Files\Amazon\AWSCLIV2;C:\Program Files\Git\cmd;C:\Program Files\erl10.3\bin;C:\Program Files (x86)\Elixir\bin;C:\Windows\system32\config\systemprofile\.mix\escripts;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Ruby30-x64\bin;C:\Users\footb\.amplify\bin;C:\Users\footb\.cargo\bin;C:\Users\footb\AppData\Local\Programs\Python\Python38-32\Scripts;C:\Users\footb\AppData\Local\Programs\Python\Python38-32;C:\Users\footb\AppData\Local\Microsoft\WindowsApps;C:\Users\footb\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\footb\AppData\Roaming\npm;C:\Users\footb\AppData\Local\Yarn\bin;C:\Users\footb\AppData\Roaming\Composer\vendor\bin;C:\Users\footb\AppData\Local\GitHubDesktop\bin;C:\Users\footb\.deno\bin;C:\Program Files (x86)\GitHub CLI;C:\Users\footb\go\bin;C:\Users\footb\.cargo\bin;C:\Cmder
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:137008:13)
+      at Interface.emit (events.js:315:20)
+      at Interface._ttyWrite (readline.js:868:16)
+      at ReadStream.onkeypress (readline.js:205:10)
+      at ReadStream.emit (events.js:315:20)
+      at emitKeys (internal/readline/utils.js:335:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1137:36)
+      at ReadStream.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:295:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

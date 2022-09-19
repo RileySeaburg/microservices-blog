@@ -25,7 +25,6 @@ app.post('/posts/:id/comments', (req, res) => {
     res.status(201).send(comments)
 })
 
-
 app.post('posts/:id/comments', (req, res) => {
 
 })

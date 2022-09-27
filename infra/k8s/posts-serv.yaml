@@ -1,0 +1,18 @@
+# Copyright (c) 2022 Evolving Software Corporation
+# 
+# This software is released under the MIT License.
+# https://opensource.org/licenses/MIT
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: posts-serv
+spec:
+  type: NodePort
+  selector:
+    app: posts
+  ports:
+    - name: posts
+      protocol: TCP
+      port: 4000
+      targetPort: 4000

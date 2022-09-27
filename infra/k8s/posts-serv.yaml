@@ -4,10 +4,15 @@
 # https://opensource.org/licenses/MIT
 
 apiVersion: v1
-kind: Pod
+kind: Service
 metadata:
-  name: posts
+  name: posts-serv
 spec:
-  containers:
+  type: NodePort
+  selector:
+    app: posts
+  ports:
     - name: posts
-      image: rileyseaburg/posts:0.0.1
+      protocol: TCP
+      port: 4000
+      targetPort: 4000

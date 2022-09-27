@@ -11,7 +11,7 @@ app.get('/posts', (req, res) => {
     res.send(posts)
 })
 
-app.post('/posts', (req, res) => {
+app.post('/posts/create', (req, res) => {
     const id = randomBytes(4).toString('hex');
     const {title} = req.body;
 
@@ -24,5 +24,7 @@ app.post('/posts', (req, res) => {
 })
 
 app.listen(4000, () => {
+    console.log('Server is running')
+    console.log('check the logs')
     console.log('listening on port 4000')
 })

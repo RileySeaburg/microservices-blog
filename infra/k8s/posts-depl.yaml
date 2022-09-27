@@ -1,0 +1,22 @@
+# Copyright (c) 2022 Evolving Software Corporation
+# 
+# This software is released under the MIT License.
+# https://opensource.org/licenses/MIT
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: posts-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: posts
+  template:
+    metadata:
+      labels:
+        app: posts
+    spec:
+      containers:
+        - name: posts
+          image: rileyseaburg/posts:0.0.1

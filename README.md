@@ -45,15 +45,21 @@ This application needs an event bus to communicate between services. It is had n
 git clone
 ```
 
+2. Clone the client
+    
+```bash
+git clone https://github.com/RileySeaburg/microservices-blog-client.git client
+```
+
 This project makes use of Skaffold to run the application in a Kubernetes cluster. Skaffold will build the Docker images for each service and deploy them to the cluster.
 
-2. Start the Kubernetes cluster
+3. Start the Kubernetes cluster
 
 ```bash
 skaffold dev
 ```
 
-3. Update your hosts file
+4. Update your hosts file
 
 ```bash
 sudo nano 
@@ -68,7 +74,7 @@ Add the following line to the hosts file:
 localhost posts.com
 ```
 
-4. Navigate to the client
+5. Navigate to the client
 
 [http://posts.com](http://posts.com)
 

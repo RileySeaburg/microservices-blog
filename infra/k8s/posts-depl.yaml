@@ -19,4 +19,4 @@ spec:
     spec:
       containers:
         - name: posts
-          image: rileyseaburg/posts:0.0.1
+          image: rileyseaburg/posts

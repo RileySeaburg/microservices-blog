@@ -24,5 +24,7 @@ app.post('/posts', (req, res) => {
 })
 
 app.listen(4000, () => {
+    console.log('Server is running')
+    console.log('check the logs')
     console.log('listening on port 4000')
 })
